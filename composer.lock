@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98128c7689418000adf376a6d9238b6b",
+    "content-hash": "298d3b72c684c98248796878ed5088c5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1333,6 +1333,49 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/admin_toolbar",
                 "issues": "https://www.drupal.org/project/issues/admin_toolbar"
+            }
+        },
+        {
+            "name": "drupal/basic_crud_operation_in_drupal_sites",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/basic_crud_operation_in_drupal_sites.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/basic_crud_operation_in_drupal_sites-1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": "14481fd2eaf9bd05ea0e18705d4e0860d89cad6e"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0",
+                    "datestamp": "1665204827",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "skalwar",
+                    "homepage": "https://www.drupal.org/user/3692274"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/basic_crud_operation_in_drupal_sites",
+            "support": {
+                "source": "https://git.drupalcode.org/project/basic_crud_operation_in_drupal_sites"
             }
         },
         {
